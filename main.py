@@ -20,7 +20,7 @@ def send_request():
     city = request.form.get('city')
 
     params = {
-        'q': f'{city}',
+        'q': city,
         'key': API_KEY
     }
 
